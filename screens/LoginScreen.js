@@ -1,6 +1,5 @@
 import { View, Text, TextInput, TouchableOpacity, StyleSheet } from 'react-native'
 import React, { useState } from 'react'
-import OTPInputView from '@twotalltotems/react-native-otp-input'
 
 const LoginScreen = ({ navigation, route }) => {
     const [login, setLogin] = useState('')
